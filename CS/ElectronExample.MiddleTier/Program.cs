@@ -62,8 +62,8 @@ builder.Services.AddXafMiddleTier(builder.Configuration, xafBuilder => {
             options.UserLoginInfoType = typeof(ElectronExample.Module.BusinessObjects.ApplicationUserLoginInfo);
             options.UseXpoPermissionsCaching();
             options.Events.OnSecurityStrategyCreated += securityStrategy => {
-                //((SecurityStrategy)securityStrategy).AnonymousAllowedTypes.Add(typeof(DevExpress.Persistent.BaseImpl.ModelDifference));
-                //((SecurityStrategy)securityStrategy).AnonymousAllowedTypes.Add(typeof(DevExpress.Persistent.BaseImpl.ModelDifferenceAspect));
+                // Uncomment the following line if shared model differences are stored in the database (see Application_CreateCustomModelDifferenceStore in the platform-specific modules).
+                //((SecurityStrategy)securityStrategy).AnonymousAllowedTypes.AddSharedModelDifferences<DevExpress.Persistent.BaseImpl.ModelDifference>();
                 ((SecurityStrategy)securityStrategy).PermissionsReloadMode = PermissionsReloadMode.CacheOnFirstAccess;
             };
         })

@@ -32,6 +32,7 @@ public sealed class ElectronExampleBlazorModule : ModuleBase {
         base.Setup(application);
         // Uncomment this code to store the shared model differences (administrator settings in Model.XAFML) in the database.
         // For more information, refer to the following topic: https://docs.devexpress.com/eXpressAppFramework/113698/
+        // In Middle Tier mode, the server must also call AnonymousAllowedTypes.AddSharedModelDifferences (see the Middle Tier Program.cs file).
         //application.CreateCustomModelDifferenceStore += Application_CreateCustomModelDifferenceStore;
         application.CreateCustomUserModelDifferenceStore += Application_CreateCustomUserModelDifferenceStore;
     }
