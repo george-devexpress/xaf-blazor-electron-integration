@@ -9,16 +9,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Drawing.Skia" Version="26.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp" Version="26.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.Api.Xpo.All" Version="26.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="26.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.Security.AspNetCore.Xpo" Version="26.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="26.1.5" />
-    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="26.1.5" />
-    <PackageReference Include="DevExpress.Persistent.Base" Version="26.1.5" />
-    <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="26.1.5" />
-    <PackageReference Include="DevExpress.RichEdit.Export" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Drawing.Skia" Version="26.2.2-beta" />
+    <PackageReference Include="DevExpress.ExpressApp" Version="26.2.2-beta" />
+    <PackageReference Include="DevExpress.ExpressApp.Api.Xpo.All" Version="26.2.2-beta" />
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="26.2.2-beta" />
+    <PackageReference Include="DevExpress.ExpressApp.Security.AspNetCore.Xpo" Version="26.2.2-beta" />
+    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="26.2.2-beta" />
+    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="26.2.2-beta" />
+    <PackageReference Include="DevExpress.Persistent.Base" Version="26.2.2-beta" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="26.2.2-beta" />
+    <PackageReference Include="DevExpress.RichEdit.Export" Version="26.2.2-beta" />
     <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.13" />
     
   </ItemGroup>
